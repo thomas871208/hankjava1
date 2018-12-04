@@ -9,7 +9,8 @@ public class PokerGame {
 	public static void main(String[] args) {
 		Random random = new Random();
 	
-		
+		Poker poker = new Poker();
+		poker.print();
 		
 		
 		/*int[] num = new int[5];
@@ -53,6 +54,7 @@ public class PokerGame {
 			}
 		System.out.print(number);
 		System.out.println(s);*/
+		
 		
 	}
 
